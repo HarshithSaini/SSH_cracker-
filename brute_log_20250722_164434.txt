@@ -1,0 +1,135 @@
+2025-07-22 16:44:34,411 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,412 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,412 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,412 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,584 - INFO - Authentication (password) failed.
+2025-07-22 16:44:34,585 - INFO - Authentication (password) failed.
+2025-07-22 16:44:34,586 - INFO - Authentication (password) failed.
+2025-07-22 16:44:34,587 - INFO - Authentication (password) failed.
+2025-07-22 16:44:34,587 - WARNING - Invalid: hapihacker:password123
+2025-07-22 16:44:34,588 - WARNING - Invalid: hapihacker:test123
+2025-07-22 16:44:34,589 - WARNING - Invalid: hapihacker:password
+2025-07-22 16:44:34,590 - WARNING - Invalid: hapihacker:admin
+2025-07-22 16:44:34,725 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,729 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,731 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,745 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,864 - INFO - Authentication (password) failed.
+2025-07-22 16:44:34,865 - INFO - Authentication (password) failed.
+2025-07-22 16:44:34,865 - WARNING - Invalid: hapihacker:nani
+2025-07-22 16:44:34,866 - WARNING - Invalid: hapihacker:kali
+2025-07-22 16:44:34,866 - INFO - Authentication (password) failed.
+2025-07-22 16:44:34,867 - WARNING - Invalid: hapihacker:1234
+2025-07-22 16:44:34,936 - INFO - Authentication (password) successful!
+2025-07-22 16:44:34,937 - INFO - SUCCESS: hapihacker@127.0.0.1:naninani123
+2025-07-22 16:44:34,952 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,957 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,962 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:34,981 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,032 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,032 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,033 - WARNING - Invalid: hapihacker:nani
+2025-07-22 16:44:35,033 - WARNING - Invalid: hapihacker:linux
+2025-07-22 16:44:35,048 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,048 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,048 - WARNING - Invalid: admin:admin
+2025-07-22 16:44:35,049 - WARNING - Invalid: hapihacker:root
+2025-07-22 16:44:35,074 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,079 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,085 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,091 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,275 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,275 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,275 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,275 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,276 - WARNING - Invalid: admin:test123
+2025-07-22 16:44:35,276 - WARNING - Invalid: admin:password123
+2025-07-22 16:44:35,276 - WARNING - Invalid: admin:nani
+2025-07-22 16:44:35,277 - WARNING - Invalid: admin:password
+2025-07-22 16:44:35,323 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,333 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,335 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,340 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,385 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,385 - WARNING - Invalid: admin:1234
+2025-07-22 16:44:35,400 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,401 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,401 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,401 - WARNING - Invalid: admin:root
+2025-07-22 16:44:35,402 - WARNING - Invalid: admin:kali
+2025-07-22 16:44:35,402 - WARNING - Invalid: admin:naninani123
+2025-07-22 16:44:35,427 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,445 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,450 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,454 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,478 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,478 - WARNING - Invalid: admin:nani
+2025-07-22 16:44:35,493 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,493 - WARNING - Invalid: admin:linux
+2025-07-22 16:44:35,509 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,509 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,509 - WARNING - Invalid: admin:abcd
+2025-07-22 16:44:35,509 - WARNING - Invalid: admin:password123
+2025-07-22 16:44:35,513 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,528 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,542 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,546 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,564 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,564 - WARNING - Invalid: admin:123456
+2025-07-22 16:44:35,587 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,588 - WARNING - Invalid: testuser:admin
+2025-07-22 16:44:35,595 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,604 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,604 - WARNING - Invalid: testuser:test123
+2025-07-22 16:44:35,622 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,634 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,635 - INFO - Authentication (password) successful!
+2025-07-22 16:44:35,635 - INFO - SUCCESS: testuser@127.0.0.1:password123
+2025-07-22 16:44:35,651 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,651 - WARNING - Invalid: testuser:password
+2025-07-22 16:44:35,672 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,682 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,682 - WARNING - Invalid: testuser:nani
+2025-07-22 16:44:35,682 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,709 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,714 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,714 - WARNING - Invalid: testuser:1234
+2025-07-22 16:44:35,741 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:35,918 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,919 - WARNING - Invalid: root:admin
+2025-07-22 16:44:35,933 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,934 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,935 - WARNING - Invalid: root:password123
+2025-07-22 16:44:35,936 - WARNING - Invalid: root:test123
+2025-07-22 16:44:35,964 - INFO - Authentication (password) failed.
+2025-07-22 16:44:35,965 - WARNING - Invalid: root:password
+2025-07-22 16:44:36,000 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,004 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,010 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,015 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,056 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,056 - WARNING - Invalid: root:nani
+2025-07-22 16:44:36,071 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,071 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,072 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,072 - WARNING - Invalid: root:1234
+2025-07-22 16:44:36,072 - WARNING - Invalid: root:kali
+2025-07-22 16:44:36,072 - WARNING - Invalid: root:naninani123
+2025-07-22 16:44:36,090 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,108 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,110 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,111 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,134 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,134 - WARNING - Invalid: root:root
+2025-07-22 16:44:36,164 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,165 - WARNING - Invalid: root:nani
+2025-07-22 16:44:36,169 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,180 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,181 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,181 - WARNING - Invalid: root:password123
+2025-07-22 16:44:36,181 - WARNING - Invalid: root:linux
+2025-07-22 16:44:36,194 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:44:36,211 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,212 - WARNING - Invalid: root:abcd
+2025-07-22 16:44:36,244 - INFO - Authentication (password) failed.
+2025-07-22 16:44:36,245 - WARNING - Invalid: root:123456

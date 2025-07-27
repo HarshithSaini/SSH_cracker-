@@ -1,0 +1,135 @@
+2025-07-22 16:56:46,615 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:46,618 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:47,448 - INFO - Authentication (password) failed.
+2025-07-22 16:56:47,448 - INFO - Authentication (password) failed.
+2025-07-22 16:56:47,449 - WARNING - Invalid: hapihacker:admin
+2025-07-22 16:56:47,450 - WARNING - Invalid: hapihacker:password123
+2025-07-22 16:56:47,512 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:47,514 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:47,609 - INFO - Authentication (password) failed.
+2025-07-22 16:56:47,610 - WARNING - Invalid: hapihacker:test123
+2025-07-22 16:56:47,625 - INFO - Authentication (password) failed.
+2025-07-22 16:56:47,626 - WARNING - Invalid: hapihacker:password
+2025-07-22 16:56:47,670 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:47,684 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:47,820 - INFO - Authentication (password) failed.
+2025-07-22 16:56:47,820 - WARNING - Invalid: hapihacker:nani
+2025-07-22 16:56:47,835 - INFO - Authentication (password) failed.
+2025-07-22 16:56:47,836 - WARNING - Invalid: hapihacker:1234
+2025-07-22 16:56:47,926 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:47,932 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:48,006 - ERROR - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2025-07-22 16:56:48,007 - ERROR - Exception for hapihacker:naninani123 - [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:56:48,011 - ERROR - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2025-07-22 16:56:48,012 - ERROR - Exception for hapihacker:kali - [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:56:48,069 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:48,073 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:48,165 - ERROR - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2025-07-22 16:56:48,166 - ERROR - Exception for hapihacker:root - [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:56:48,172 - ERROR - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2025-07-22 16:56:48,173 - ERROR - Exception for hapihacker:nani - [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:56:48,241 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:48,248 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:48,343 - ERROR - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2025-07-22 16:56:48,344 - ERROR - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2025-07-22 16:56:48,344 - ERROR - Exception for hapihacker:linux - [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:56:48,346 - ERROR - Exception for hapihacker:password123 - [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:56:48,424 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:48,426 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:48,548 - ERROR - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2025-07-22 16:56:48,549 - ERROR - Exception for hapihacker:abcd - [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:56:48,552 - ERROR - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2025-07-22 16:56:48,554 - ERROR - Exception for hapihacker:123456 - [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:56:48,658 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:48,661 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:49,376 - INFO - Authentication (password) failed.
+2025-07-22 16:56:49,376 - WARNING - Invalid: admin:password123
+2025-07-22 16:56:49,471 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:49,511 - INFO - Authentication (password) failed.
+2025-07-22 16:56:49,512 - WARNING - Invalid: admin:admin
+2025-07-22 16:56:49,600 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:50,449 - INFO - Authentication (password) failed.
+2025-07-22 16:56:50,450 - WARNING - Invalid: admin:test123
+2025-07-22 16:56:50,537 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:50,725 - INFO - Authentication (password) failed.
+2025-07-22 16:56:50,726 - WARNING - Invalid: admin:password
+2025-07-22 16:56:50,821 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:51,657 - INFO - Authentication (password) failed.
+2025-07-22 16:56:51,658 - WARNING - Invalid: admin:nani
+2025-07-22 16:56:51,754 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:52,296 - INFO - Authentication (password) failed.
+2025-07-22 16:56:52,297 - WARNING - Invalid: admin:1234
+2025-07-22 16:56:52,384 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:52,979 - INFO - Authentication (password) failed.
+2025-07-22 16:56:52,980 - WARNING - Invalid: admin:naninani123
+2025-07-22 16:56:53,077 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:53,747 - INFO - Authentication (password) failed.
+2025-07-22 16:56:53,748 - WARNING - Invalid: admin:kali
+2025-07-22 16:56:53,842 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:54,183 - INFO - Authentication (password) failed.
+2025-07-22 16:56:54,184 - WARNING - Invalid: admin:root
+2025-07-22 16:56:54,275 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:54,697 - INFO - Authentication (password) failed.
+2025-07-22 16:56:54,698 - WARNING - Invalid: admin:nani
+2025-07-22 16:56:54,784 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:55,206 - INFO - Authentication (password) failed.
+2025-07-22 16:56:55,207 - WARNING - Invalid: admin:linux
+2025-07-22 16:56:55,302 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:55,639 - INFO - Authentication (password) failed.
+2025-07-22 16:56:55,640 - WARNING - Invalid: admin:password123
+2025-07-22 16:56:55,736 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:56,153 - INFO - Authentication (password) failed.
+2025-07-22 16:56:56,153 - WARNING - Invalid: admin:abcd
+2025-07-22 16:56:56,241 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:56,687 - INFO - Authentication (password) failed.
+2025-07-22 16:56:56,687 - WARNING - Invalid: admin:123456
+2025-07-22 16:56:56,786 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:57,055 - INFO - Authentication (password) failed.
+2025-07-22 16:56:57,056 - WARNING - Invalid: testuser:admin
+2025-07-22 16:56:57,152 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:57,910 - INFO - Authentication (password) successful!
+2025-07-22 16:56:57,911 - INFO - SUCCESS: testuser@127.0.0.1:password123
+2025-07-22 16:56:58,026 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:58,193 - INFO - Authentication (password) failed.
+2025-07-22 16:56:58,194 - WARNING - Invalid: testuser:test123
+2025-07-22 16:56:58,292 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:58,784 - INFO - Authentication (password) failed.
+2025-07-22 16:56:58,785 - WARNING - Invalid: root:admin
+2025-07-22 16:56:58,879 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:59,310 - INFO - Authentication (password) failed.
+2025-07-22 16:56:59,311 - WARNING - Invalid: root:password123
+2025-07-22 16:56:59,408 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:59,829 - INFO - Authentication (password) failed.
+2025-07-22 16:56:59,830 - WARNING - Invalid: root:test123
+2025-07-22 16:56:59,845 - INFO - Authentication (password) failed.
+2025-07-22 16:56:59,847 - WARNING - Invalid: root:password
+2025-07-22 16:56:59,930 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:56:59,942 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:57:00,857 - INFO - Authentication (password) failed.
+2025-07-22 16:57:00,858 - WARNING - Invalid: root:1234
+2025-07-22 16:57:00,961 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:57:01,002 - INFO - Authentication (password) failed.
+2025-07-22 16:57:01,002 - WARNING - Invalid: root:nani
+2025-07-22 16:57:01,089 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:57:01,967 - INFO - Authentication (password) failed.
+2025-07-22 16:57:01,968 - WARNING - Invalid: root:naninani123
+2025-07-22 16:57:02,064 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:57:02,243 - INFO - Authentication (password) failed.
+2025-07-22 16:57:02,244 - WARNING - Invalid: root:kali
+2025-07-22 16:57:02,330 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:57:03,141 - INFO - Authentication (password) failed.
+2025-07-22 16:57:03,189 - WARNING - Invalid: root:root
+2025-07-22 16:57:03,282 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:57:03,512 - INFO - Authentication (password) failed.
+2025-07-22 16:57:03,512 - WARNING - Invalid: root:nani
+2025-07-22 16:57:03,601 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:57:04,327 - INFO - Authentication (password) failed.
+2025-07-22 16:57:04,328 - WARNING - Invalid: root:linux
+2025-07-22 16:57:04,414 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:57:04,837 - INFO - Authentication (password) failed.
+2025-07-22 16:57:04,838 - WARNING - Invalid: root:password123
+2025-07-22 16:57:04,925 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:57:05,789 - INFO - Authentication (password) failed.
+2025-07-22 16:57:05,790 - WARNING - Invalid: root:abcd
+2025-07-22 16:57:05,988 - INFO - Authentication (password) failed.
+2025-07-22 16:57:05,989 - WARNING - Invalid: root:123456

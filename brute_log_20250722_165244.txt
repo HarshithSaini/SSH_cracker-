@@ -1,0 +1,443 @@
+2025-07-22 16:52:45,124 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:45,125 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:45,126 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:45,126 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:47,627 - WARNING - Retry 2: hapihacker:password
+2025-07-22 16:52:47,628 - WARNING - Retry 2: hapihacker:test123
+2025-07-22 16:52:47,629 - WARNING - Retry 2: hapihacker:password123
+2025-07-22 16:52:47,630 - WARNING - Retry 2: hapihacker:admin
+2025-07-22 16:52:49,282 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:49,283 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:49,435 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:49,657 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:51,690 - WARNING - Retry 3: hapihacker:admin
+2025-07-22 16:52:51,691 - WARNING - Retry 3: hapihacker:test123
+2025-07-22 16:52:51,691 - WARNING - Retry 3: hapihacker:password
+2025-07-22 16:52:51,832 - INFO - Authentication (password) failed.
+2025-07-22 16:52:51,833 - WARNING - Invalid: hapihacker:password123
+2025-07-22 16:52:51,922 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:52,057 - INFO - Authentication (password) failed.
+2025-07-22 16:52:52,058 - WARNING - Invalid: hapihacker:nani
+2025-07-22 16:52:52,147 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:52,304 - INFO - Authentication (password) failed.
+2025-07-22 16:52:52,305 - WARNING - Invalid: hapihacker:1234
+2025-07-22 16:52:52,397 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:52,816 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:52,818 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:52,822 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:55,754 - WARNING - Retry 2: hapihacker:root
+2025-07-22 16:52:55,755 - WARNING - Retry 2: hapihacker:kali
+2025-07-22 16:52:55,755 - WARNING - Retry 2: hapihacker:nani
+2025-07-22 16:52:56,862 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:56,873 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:56,875 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:56,965 - INFO - Authentication (password) successful!
+2025-07-22 16:52:56,965 - INFO - SUCCESS: hapihacker@127.0.0.1:naninani123
+2025-07-22 16:52:56,971 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:52:57,733 - ERROR - Traceback (most recent call last):
+2025-07-22 16:52:57,733 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:52:57,733 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:52:57,734 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:52:57,734 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:52:57,734 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:52:57,734 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:52:57,734 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:52:57,734 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:52:57,734 - ERROR - 
+2025-07-22 16:52:57,735 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:52:57,735 - ERROR - 
+2025-07-22 16:52:57,735 - ERROR - Traceback (most recent call last):
+2025-07-22 16:52:57,735 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:52:57,735 - ERROR -     self._check_banner()
+2025-07-22 16:52:57,736 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:52:57,736 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:52:57,736 - ERROR -     raise SSHException(
+2025-07-22 16:52:57,736 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:52:57,736 - ERROR -     )
+2025-07-22 16:52:57,736 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:52:57,736 - ERROR - 
+2025-07-22 16:52:57,737 - WARNING - Retry 2: admin:admin
+2025-07-22 16:52:58,832 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:58,851 - INFO - Authentication (password) failed.
+2025-07-22 16:52:58,852 - WARNING - Invalid: hapihacker:kali
+2025-07-22 16:52:58,940 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:52:59,680 - INFO - Authentication (password) failed.
+2025-07-22 16:52:59,681 - WARNING - Invalid: hapihacker:root
+2025-07-22 16:52:59,685 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:52:59,691 - ERROR - Traceback (most recent call last):
+2025-07-22 16:52:59,692 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:52:59,692 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:52:59,692 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:52:59,692 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:52:59,692 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:52:59,693 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:52:59,693 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:52:59,693 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:52:59,693 - ERROR - 
+2025-07-22 16:52:59,693 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:52:59,693 - ERROR - 
+2025-07-22 16:52:59,694 - ERROR - Traceback (most recent call last):
+2025-07-22 16:52:59,694 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:52:59,694 - ERROR -     self._check_banner()
+2025-07-22 16:52:59,694 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:52:59,694 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:52:59,694 - ERROR -     raise SSHException(
+2025-07-22 16:52:59,694 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:52:59,695 - ERROR -     )
+2025-07-22 16:52:59,695 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:52:59,695 - ERROR - 
+2025-07-22 16:52:59,696 - WARNING - Retry 2: admin:test123
+2025-07-22 16:52:59,830 - WARNING - Retry 3: hapihacker:nani
+2025-07-22 16:53:00,787 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:00,925 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:01,395 - INFO - Authentication (password) failed.
+2025-07-22 16:53:01,396 - WARNING - Invalid: admin:admin
+2025-07-22 16:53:01,483 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:01,957 - WARNING - Retry 2: admin:password123
+2025-07-22 16:53:03,145 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,260 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,260 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,260 - WARNING - Invalid: admin:password
+2025-07-22 16:53:03,260 - WARNING - Invalid: admin:nani
+2025-07-22 16:53:03,266 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:53:03,268 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:03,269 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:03,269 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:03,269 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:03,269 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:03,269 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:03,269 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:03,269 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:03,269 - ERROR - ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:53:03,269 - ERROR - 
+2025-07-22 16:53:03,269 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:03,270 - ERROR - 
+2025-07-22 16:53:03,270 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:03,270 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:03,270 - ERROR -     self._check_banner()
+2025-07-22 16:53:03,270 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:03,270 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:03,270 - ERROR -     raise SSHException(
+2025-07-22 16:53:03,270 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:03,270 - ERROR -     )
+2025-07-22 16:53:03,270 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-22 16:53:03,271 - ERROR - 
+2025-07-22 16:53:03,271 - WARNING - Retry 2: admin:1234
+2025-07-22 16:53:03,275 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,275 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,276 - WARNING - Invalid: admin:test123
+2025-07-22 16:53:03,276 - WARNING - Invalid: admin:password123
+2025-07-22 16:53:03,307 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,327 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,331 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,371 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,371 - WARNING - Invalid: admin:naninani123
+2025-07-22 16:53:03,374 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:03,378 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:03,378 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:03,378 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:03,378 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:03,378 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:03,378 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:03,378 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:03,379 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:03,379 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:03,379 - ERROR - 
+2025-07-22 16:53:03,379 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:03,379 - ERROR - 
+2025-07-22 16:53:03,379 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:03,379 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:03,379 - ERROR -     self._check_banner()
+2025-07-22 16:53:03,380 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:03,380 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:03,380 - ERROR -     raise SSHException(
+2025-07-22 16:53:03,380 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:03,380 - ERROR -     )
+2025-07-22 16:53:03,380 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:03,380 - ERROR - 
+2025-07-22 16:53:03,381 - WARNING - Retry 2: admin:nani
+2025-07-22 16:53:03,387 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,387 - WARNING - Invalid: admin:root
+2025-07-22 16:53:03,402 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,403 - WARNING - Invalid: admin:kali
+2025-07-22 16:53:03,431 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,446 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,502 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,502 - WARNING - Invalid: admin:linux
+2025-07-22 16:53:03,532 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,533 - WARNING - Invalid: admin:password123
+2025-07-22 16:53:03,583 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,607 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,687 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,688 - WARNING - Invalid: admin:abcd
+2025-07-22 16:53:03,720 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,721 - WARNING - Invalid: admin:123456
+2025-07-22 16:53:03,767 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,798 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:03,907 - INFO - Authentication (password) failed.
+2025-07-22 16:53:03,908 - WARNING - Invalid: testuser:admin
+2025-07-22 16:53:03,979 - INFO - Authentication (password) successful!
+2025-07-22 16:53:03,980 - INFO - SUCCESS: testuser@127.0.0.1:password123
+2025-07-22 16:53:04,007 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:04,087 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:04,152 - INFO - Authentication (password) failed.
+2025-07-22 16:53:04,153 - WARNING - Invalid: testuser:test123
+2025-07-22 16:53:04,169 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:04,174 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:04,174 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:04,174 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:04,174 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:04,175 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:04,175 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:04,175 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:04,175 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:04,175 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:04,176 - ERROR - 
+2025-07-22 16:53:04,176 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:04,176 - ERROR - 
+2025-07-22 16:53:04,176 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:04,176 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:04,176 - ERROR -     self._check_banner()
+2025-07-22 16:53:04,176 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:04,176 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:04,177 - ERROR -     raise SSHException(
+2025-07-22 16:53:04,177 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:04,177 - ERROR -     )
+2025-07-22 16:53:04,177 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:04,177 - ERROR - 
+2025-07-22 16:53:04,178 - WARNING - Retry 2: root:password123
+2025-07-22 16:53:04,225 - INFO - Authentication (password) failed.
+2025-07-22 16:53:04,226 - WARNING - Invalid: root:admin
+2025-07-22 16:53:04,324 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:04,361 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:04,465 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:05,271 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:05,655 - INFO - Authentication (password) failed.
+2025-07-22 16:53:05,656 - WARNING - Invalid: admin:1234
+2025-07-22 16:53:05,662 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:05,668 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:05,669 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:05,669 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:05,669 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:05,670 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:05,670 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:05,671 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:05,671 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:05,671 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:05,671 - ERROR - 
+2025-07-22 16:53:05,671 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:05,672 - ERROR - 
+2025-07-22 16:53:05,672 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:05,672 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:05,672 - ERROR -     self._check_banner()
+2025-07-22 16:53:05,673 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:05,673 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:05,673 - ERROR -     raise SSHException(
+2025-07-22 16:53:05,673 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:05,674 - ERROR -     )
+2025-07-22 16:53:05,674 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:05,674 - ERROR - 
+2025-07-22 16:53:05,676 - WARNING - Retry 2: root:password
+2025-07-22 16:53:06,348 - INFO - Authentication (password) failed.
+2025-07-22 16:53:06,349 - WARNING - Invalid: root:test123
+2025-07-22 16:53:06,378 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:06,382 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:06,382 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:06,382 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:06,382 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:06,383 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:06,383 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:06,383 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:06,383 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:06,383 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:06,383 - ERROR - 
+2025-07-22 16:53:06,383 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:06,384 - ERROR - 
+2025-07-22 16:53:06,384 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:06,384 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:06,384 - ERROR -     self._check_banner()
+2025-07-22 16:53:06,384 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:06,384 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:06,384 - ERROR -     raise SSHException(
+2025-07-22 16:53:06,384 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:06,385 - ERROR -     )
+2025-07-22 16:53:06,385 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:06,385 - ERROR - 
+2025-07-22 16:53:06,386 - WARNING - Retry 2: root:nani
+2025-07-22 16:53:06,698 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:06,702 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:06,703 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:06,703 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:06,703 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:06,703 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:06,704 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:06,704 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:06,704 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:06,704 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:06,704 - ERROR - 
+2025-07-22 16:53:06,704 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:06,705 - ERROR - 
+2025-07-22 16:53:06,705 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:06,705 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:06,705 - ERROR -     self._check_banner()
+2025-07-22 16:53:06,705 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:06,705 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:06,705 - ERROR -     raise SSHException(
+2025-07-22 16:53:06,706 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:06,706 - ERROR -     )
+2025-07-22 16:53:06,706 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:06,706 - ERROR - 
+2025-07-22 16:53:06,707 - WARNING - Retry 3: root:password
+2025-07-22 16:53:06,800 - INFO - Authentication (password) failed.
+2025-07-22 16:53:06,801 - WARNING - Invalid: admin:nani
+2025-07-22 16:53:06,888 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:07,108 - INFO - Authentication (password) failed.
+2025-07-22 16:53:07,109 - WARNING - Invalid: root:password123
+2025-07-22 16:53:07,201 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:07,481 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:07,727 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:07,731 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:07,732 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:07,732 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:07,732 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:07,732 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:07,732 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:07,732 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:07,733 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:07,733 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:07,733 - ERROR - 
+2025-07-22 16:53:07,733 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:07,733 - ERROR - 
+2025-07-22 16:53:07,733 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:07,733 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:07,734 - ERROR -     self._check_banner()
+2025-07-22 16:53:07,734 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:07,734 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:07,734 - ERROR -     raise SSHException(
+2025-07-22 16:53:07,734 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:07,734 - ERROR -     )
+2025-07-22 16:53:07,735 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:07,735 - ERROR - 
+2025-07-22 16:53:07,736 - WARNING - Retry 2: root:kali
+2025-07-22 16:53:08,214 - INFO - Authentication (password) failed.
+2025-07-22 16:53:08,214 - WARNING - Invalid: root:1234
+2025-07-22 16:53:08,218 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:08,223 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:08,223 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:08,223 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:08,224 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:08,224 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:08,224 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:08,225 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:08,225 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:08,225 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:08,225 - ERROR - 
+2025-07-22 16:53:08,225 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:08,226 - ERROR - 
+2025-07-22 16:53:08,226 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:08,226 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:08,226 - ERROR -     self._check_banner()
+2025-07-22 16:53:08,226 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:08,226 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:08,226 - ERROR -     raise SSHException(
+2025-07-22 16:53:08,226 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:08,227 - ERROR -     )
+2025-07-22 16:53:08,227 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:08,227 - ERROR - 
+2025-07-22 16:53:08,228 - WARNING - Retry 2: root:root
+2025-07-22 16:53:08,585 - INFO - Authentication (password) failed.
+2025-07-22 16:53:08,609 - WARNING - Invalid: root:naninani123
+2025-07-22 16:53:08,708 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:08,820 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:09,066 - INFO - Authentication (password) failed.
+2025-07-22 16:53:09,067 - WARNING - Invalid: root:nani
+2025-07-22 16:53:09,094 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:09,098 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:09,099 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:09,099 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:09,099 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:09,099 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:09,099 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:09,100 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:09,100 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:09,100 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:09,100 - ERROR - 
+2025-07-22 16:53:09,100 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:09,100 - ERROR - 
+2025-07-22 16:53:09,100 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:09,101 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:09,101 - ERROR -     self._check_banner()
+2025-07-22 16:53:09,101 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:09,101 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:09,101 - ERROR -     raise SSHException(
+2025-07-22 16:53:09,101 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:09,102 - ERROR -     )
+2025-07-22 16:53:09,102 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:09,102 - ERROR - 
+2025-07-22 16:53:09,103 - WARNING - Retry 2: root:linux
+2025-07-22 16:53:09,232 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:09,237 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:09,237 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:09,237 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:09,237 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:09,237 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:09,237 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:09,238 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:09,238 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:09,238 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:09,238 - ERROR - 
+2025-07-22 16:53:09,238 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:09,238 - ERROR - 
+2025-07-22 16:53:09,239 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:09,239 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:09,239 - ERROR -     self._check_banner()
+2025-07-22 16:53:09,239 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:09,239 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:09,239 - ERROR -     raise SSHException(
+2025-07-22 16:53:09,239 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:09,240 - ERROR -     )
+2025-07-22 16:53:09,240 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:09,240 - ERROR - 
+2025-07-22 16:53:09,241 - WARNING - Retry 3: root:root
+2025-07-22 16:53:10,195 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:10,338 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:10,418 - INFO - Authentication (password) failed.
+2025-07-22 16:53:10,419 - WARNING - Invalid: root:nani
+2025-07-22 16:53:10,507 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:11,666 - INFO - Authentication (password) failed.
+2025-07-22 16:53:11,666 - WARNING - Invalid: root:kali
+2025-07-22 16:53:11,767 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:13,148 - WARNING - Retry 3: root:linux
+2025-07-22 16:53:13,323 - WARNING - Retry 2: root:password123
+2025-07-22 16:53:13,466 - WARNING - Retry 2: root:abcd
+2025-07-22 16:53:14,343 - ERROR - Exception (client): Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:14,347 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:14,347 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-07-22 16:53:14,348 - ERROR -     buf = self.packetizer.readline(timeout)
+2025-07-22 16:53:14,348 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-07-22 16:53:14,348 - ERROR -     buf += self._read_timeout(timeout)
+2025-07-22 16:53:14,348 - ERROR -            ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-07-22 16:53:14,348 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-07-22 16:53:14,348 - ERROR -     x = self.__socket.recv(128)
+2025-07-22 16:53:14,349 - ERROR - ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:14,349 - ERROR - 
+2025-07-22 16:53:14,349 - ERROR - During handling of the above exception, another exception occurred:
+2025-07-22 16:53:14,349 - ERROR - 
+2025-07-22 16:53:14,349 - ERROR - Traceback (most recent call last):
+2025-07-22 16:53:14,349 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-07-22 16:53:14,350 - ERROR -     self._check_banner()
+2025-07-22 16:53:14,350 - ERROR -     ~~~~~~~~~~~~~~~~~~^^
+2025-07-22 16:53:14,350 - ERROR -   File "C:\Program Files\Python313\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-07-22 16:53:14,350 - ERROR -     raise SSHException(
+2025-07-22 16:53:14,350 - ERROR -         "Error reading SSH protocol banner" + str(e)
+2025-07-22 16:53:14,350 - ERROR -     )
+2025-07-22 16:53:14,351 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-22 16:53:14,351 - ERROR - 
+2025-07-22 16:53:14,351 - WARNING - Retry 3: root:password123
+2025-07-22 16:53:14,564 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:14,679 - WARNING - Retry 2: root:123456
+2025-07-22 16:53:15,142 - INFO - Authentication (password) failed.
+2025-07-22 16:53:15,142 - WARNING - Invalid: root:abcd
+2025-07-22 16:53:15,843 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-07-22 16:53:17,214 - INFO - Authentication (password) failed.
+2025-07-22 16:53:17,214 - WARNING - Invalid: root:123456
