@@ -64,7 +64,7 @@ text
 [+] Found: testuser@192.168.1.10:admin123
 [-] Invalid: root:root123
 [!] SSH Retry (1) for admin:password123
-```
+
 Results saved to results.txt and brute_log_TIMESTAMP.txt
 
 
