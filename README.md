@@ -88,7 +88,14 @@ If you like this project, please ⭐ the repo!
 
 
 
-# License
+*Saini Harshith*  
+🎓 B.Tech CSE (Cybersecurity)  
+🔗 GitHub: [Saini Harshith](https://github.com/HarshithSaini)  
+📧 Email: [sainiharshith81@gmail.com](mailto:sainiharshith81@gmail.com)
+
+---
+
+## 📜 License
 
 This project is open-source and free to use by anyone for personal or educational purposes.  
 Feel free to modify, distribute, and use the code as long as proper credit is given to the original author, *Saini Harshith*.
